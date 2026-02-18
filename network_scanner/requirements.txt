@@ -1,0 +1,23 @@
+# NetScanner Pro - Dependencies
+# Install with: pip install -r requirements.txt
+
+# GUI Framework
+PySide6>=6.5.0
+
+# Network scanning
+scapy>=2.5.0
+
+# SNMP
+pysnmp>=4.4.12
+
+# DNS
+dnspython>=2.4.0
+
+# Graph / Topology
+networkx>=3.1
+
+# Reporting
+jinja2>=3.1.0
+
+# Packaging (build-only)
+pyinstaller>=5.0; extra == "build"
